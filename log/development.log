@@ -1094,3 +1094,4 @@ Processing by PostsController#show as HTML
   Parameters: {"id"=>"5"}
   [1m[36mPost Load (0.2ms)[0m  [1mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT 1[0m  [["id", 5]]
   Rendered posts/show.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.2ms)
